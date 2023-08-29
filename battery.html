@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto PRO car battery Page</title>
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/css/slick.css"/>
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+  <header class="top-header">
+    <nav class="navbar container">
+      <a class="navbar-brand" href="index.html"><img src="./assets/images/logoH.png" alt="AUTOPRO LOGO"></a>
+   
+
+      <ul class=" ml-auto">
+        <li class="dropdown">
+          <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-globe"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">ENG</a>
+            <a class="dropdown-item" href="#">AR</a>
+          </div>
+        </li>
+        
+      </ul>
+    
+ 
+    </nav>
+  </header>
+  
+  <header class="main-header">
+    <nav class="navbar navbar-expand-lg container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-bars"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 main-menu">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tire.html">CAr tires </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="oil.html">oil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="battery.html">Battery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faqs.html">faqs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact us</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 sec-menu">
+          <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> cart</a></li>
+          <li class="nav-item"><a class="nav-link"  href="#">Log in / sign up</a></li>
+        </ul>
+       
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="pro-cat_banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="tire-form">
+
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="oil-number-tab" data-toggle="pill" data-target="#oil-number" type="button" role="tab" aria-controls="oil-number" aria-selected="true">Search by brand</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="car-brand-tab" data-toggle="pill" data-target="#car-brand" type="button" role="tab" aria-controls="car-brand" aria-selected="false">Search by Car</button>
+                </li>
+                
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+
+                <div class="tab-pane fade show active" id="oil-number" role="tabpanel" aria-labelledby="oil-number-tab">
+
+                  <form>
+                
+                    <div class="form-group">
+                      <label for="tireWidth">battery brand</label>
+                      <select class="form-control" id="oil-number">
+                        <option>Select battery brand</option>
+                        <option>halfords</option>
+                        <option>halfords</option>
+                        <option>halfords</option>
+                      </select>
+                    </div>
+                    
+                   
+                    <div class="form-group row">
+                      <div class="col-sm-12 text-center">
+                        <button type="submit" class="btn btn-search">Search battery</button>
+                      </div>
+                    </div>
+                    
+                  </form>
+
+                  
+                </div>
+
+                <div class="tab-pane fade" id="car-brand" role="tabpanel" aria-labelledby="car-brand-tab">
+                  
+                  <form>
+                  
+                    <div class="form-group">
+                     
+                      <select class="form-control" id="car-year">
+                        <option>year</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <select class="form-control" id="car-make">
+                        <option>car make</option>
+                        <option>toyota</option>
+                        <option>aston martin</option>
+                        <option>audi</option>
+                        <option>honda</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      
+                      <select class="form-control" id="car-model">
+                        <option>car models</option>
+                        <option>civic</option>
+                        <option>city</option>
+                      </select>
+                    </div>
+                    <div class="form-group row">
+                    <div class="col-sm-12 text-center">
+                      <button type="submit" class="btn btn-search">Search oil</button>
+                    </div>
+                    </div>
+                  
+                  </form>
+                </div>
+                
+              </div>
+
+
+             
+            </div>
+          </div>
+          
+          <div class="col-lg-7">
+            <div id="pro-cat_carousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#pro-cat_carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#pro-cat_carousel" data-slide-to="1"></li>
+                <li data-target="#pro-cat_carousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel-box">
+                    <div class="clock-img">
+                    <img src="./assets/images/Clock.png" alt="">
+                    </div>
+                    <div class="pro-cat_captions">
+                      <h2>shop now and pay later</h2>
+                      <ul class="shop-now">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit  
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit  
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="clock-img">
+                    <img src="./assets/images/Clock.png" alt="">
+                    </div>
+                    <div class="pro-cat_captions">
+                      <h2>shop now and pay later</h2>
+                      <ul class="shop-now">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit  
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit  
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="carousel-item">
+                  <div class="carousel-box">
+                    <div class="clock-img">
+                    <img src="./assets/images/Clock.png" alt="">
+                    </div>
+                    <div class="pro-cat_captions">
+                      <h2>shop now and pay later</h2>
+                      <ul class="shop-now">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit  
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit  
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-target="#pro-cat_carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-target="#pro-cat_carousel" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+   <!-- products category section  order process -->
+    <section class="auto-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12 pro-order_process">
+            
+            <img  class="feature-arrow" src="./assets/images/search.png" alt="">
+            <h4 class="feature-title">Search & Filter</h4>
+            <p class="feature-descr">Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod temporin
+cididunt ut labore</p>
+            
+          </div>
+           <div class="col-lg-3 col-md-6 col-12 pro-order_process">
+            
+            <img  class="feature-arrow" src="./assets/images/shopping.png" alt="">
+            <h4 class="feature-title">buy online</h4>
+            <p class="feature-descr"> Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod temporin
+cididunt ut labore</p>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 pro-order_process">
+            
+            <img  class="feature-arrow" src="./assets/images/appointment.png" alt="">
+            <h4 class="feature-title">Schedule appointment</h4>
+            <p  class="feature-descr">Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod temporin
+cididunt ut labore</p>
+            
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 pro-order_process">
+            
+            <img  class="feature-arrow" src="./assets/images/car.png" alt="">
+            <h4 class="feature-title">enjoy your ride</h4>
+            <p class="feature-descr">Lorem ipsum dolor sit amet, consectetur
+adipiscing elit, sed do eiusmod temporin
+cididunt ut labore</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+       <!-- products category section  order process -->
+
+
+       <!-- products category section  video -->
+
+       <section class="pro-cat_video">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <iframe   width="100%" height="550" src="https://www.youtube.com/embed/KTvD2NMyNP4?si=wUOaTzTJlZ7dc6An" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+       </section>
+
+
+
+
+          <!-- products category section  order process -->
+    <section class="auto-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            
+            <div class="pro-cat_focus">
+              <h2 class="focus-title">we will get you moving in fast and easy</h2>
+              <p class="focus-deliver">Quick way to repace batteries in Saudi Arabia</p>
+              <img class="focus-img img-fluid" src="./assets/images/focus-car.png"  alt="">
+            </div>
+            
+          </div>
+           <div class="col-lg-6 col-md-12 col-12">
+            <div class="pro-cat_foucs--descr">
+              <p>Your tires are crucial for safe driving, serving as the vital connection between your car and
+the road. That's why it's essential to maintain them in good condition and replace them
+when necessary.</p>
+              <p>With our mobile tire change service in Saudi Arabia, replacing your tires has never been
+easier or faster. Save time by having our mobile fitter van come directly to you, wherever
+you prefer - be it your home, workplace, or any other convenient location.</p>
+              <p>
+If you are in Dammam, Khobar, or Qatif, schedule your appointment now and take advantage
+of our hassle-free service. We guarantee no hidden fees or unexpected surprises, providing
+you with peace of mind</p>
+
+<ul class="shop-now">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit  
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit  
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </li>
+                      </ul>
+            </div>
+           
+            
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+       <!-- products category section  order process -->
+
+
+<!-- products category section partners  -->
+       <section class="partners">
+        <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="home-cat-title">Brands we partner with</h2>
+          </div>
+          <div class="col-12">
+            <p class="home-cat-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+minim veniam, quis nostrud exercitation</p>
+          </div>
+        </div>
+        
+      </div>
+        <div class="container">
+          <div class="partners-carousel">
+            <div class="partner-item">
+              <img src="./assets/images/pirelli.png" class="img-fluid" alt="">
+            </div>
+            <div class="partner-item">
+              <img src="./assets/images/falken.png" class="img-fluid" alt="">
+            </div>
+            <div class="partner-item">
+              <img src="./assets/images/pirelli.png" class="img-fluid" alt="">
+            </div>
+            <div class="partner-item">
+              <img src="./assets/images/falken.png" class="img-fluid" alt="">
+            </div>
+            <div class="partner-item">
+              <img src="./assets/images/falken.png" class="img-fluid" alt="">
+            </div>
+            <div class="partner-item">
+              <img src="./assets/images/falken.png" class="img-fluid" alt="">
+            </div>
+            <div class="partner-item">
+              <img src="./assets/images/falken.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+       
+       </section>
+
+       <!-- products category section partners  -->
+
+
+       <!-- products category section best sellers  -->
+
+       <section class="bestsellers-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="home-cat-title">Best sellers</h2>
+            </div>
+            <div class="col-12">
+              <p class="home-cat-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+minim veniam, quis nostrud exercitation</p>
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="best-sellers">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="product-item">
+                    <div class="product-img">
+                      <a href="#">
+                        <img src="./assets/images/battery-product.png" class="img-fluid" alt="">
+                      </a>
+                      <span class="product-sale">
+                        25% off
+                      </span>
+                    </div>
+                    <div class="product-info">
+                      <h3 ><a class="product-title" href="#">12 V Calcium Car Battery</a></h3>
+                      <p class="product-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+orci didunt ut labore et dolore
+                      </p>
+                      <p class="product-price">
+                        sar 169.23
+                      </p>
+
+                      
+                    </div>
+                    <a href="#" class="add-to-cart-btn">Add to cart +</a>
+
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="product-item">
+                    <div class="product-img">
+                      <a href="#">
+                        <img src="./assets/images/battery-product.png" class="img-fluid" alt="">
+                      </a>
+                      <span class="product-sale">
+                        25% off
+                      </span>
+                    </div>
+                    <div class="product-info">
+                      <h3 ><a class="product-title" href="#">12 V Calcium Car Battery</a></h3>
+                      <p class="product-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+orci didunt ut labore et dolore
+                      </p>
+                      <p class="product-price">
+                        sar 169.23
+                      </p>
+
+                      
+                    </div>
+                    <a href="#" class="add-to-cart-btn">Add to cart +</a>
+
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="product-item">
+                    <div class="product-img">
+                      <a href="#">
+                        <img src="./assets/images/battery-product.png" class="img-fluid" alt="">
+                      </a>
+                      <span class="product-sale">
+                        25% off
+                      </span>
+                    </div>
+                    <div class="product-info">
+                      <h3 ><a class="product-title" href="#">12 V Calcium Car Battery</a></h3>
+                      <p class="product-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+orci didunt ut labore et dolore
+                      </p>
+                      <p class="product-price">
+                        sar 169.23
+                      </p>
+
+                      
+                    </div>
+                    <a href="#" class="add-to-cart-btn">Add to cart +</a>
+
+                  </div>
+                </div>
+
+                
+              </div>
+            </div>
+        </div>
+       </section>
+  </main>
+
+
+   <footer >
+    <div class="autopro-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-12">
+          <div class="footer-logo">
+            <img src="./assets/images/logoH.png" class="img-fluid" alt="autopro logo">
+          </div>
+          <div class="footer-descr">
+            <p>AutoPro is the most reliable online store in Saudi Arabia for your car tire, oil,
+and battery needs. With a wide range of brands and sizes, you can shop with
+confidence that every product you buy from AutoPro is fully backed by the
+manufacturer's warranty. Enjoy the convenience of doorstep delivery and
+professional installation for your tires, oil, or battery. Trust AutoPro to provide
+you with the best products and services for your vehicle.</p>
+          </div>
+          <div class="footer-social">
+            <ul>
+              <li><a href="#"><img src="./assets/images/instagram.svg" alt=""></a></li>
+              <li><a href="#"><img src="./assets/images/facebook.svg" alt=""></a></li>
+              <li><a href="#"><img src="./assets/images/linkedin.svg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12">
+          <div class="row">
+            <div class=" col-lg-1 col-0"></div>
+            <div class=" col-lg-3 col-md-3">
+              <h3 class="widget-title">QUICK LINKS</h3>
+              <ul class="footer-menu">
+                <li><a href="">Why choose Autopro?</a></li>
+                <li><a href="">Why choose Autopro?</a></li>
+              </ul>
+            </div>
+            <div class=" col-lg-3 col-md-3">
+              <h3 class="widget-title">Support</h3>
+              <ul class="footer-menu">
+                <li><a href="">Warranty</a></li>
+                <li><a href="">Refund Payment</a></li>
+                <li><a href="">Shipping Policy</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-5 col-md-6">
+              <h3 class="widget-title">Support</h3>
+              <ul class="footer-menu">
+                <li><a href="">FAQs</a></li>
+                <li><a href="">VAT Certification</a></li>
+                <li><a href="tel:+971 XX XXXXXXXX">+971 XX XXXXXXXX</a></li>
+                <li><p>Sat- Thu (10:00 am - 10:00 pm)</p></li>
+              </ul>
+              <div class="footer-payment_options">
+                <h3>we accept:</h3>
+                <ul>
+                  <li><img src="./assets/images/visa.svg" alt=""></li>
+                  <li><img src="./assets/images/paypal.svg" alt=""></li>
+                  <li><img src="./assets/images/master.svg" alt=""></li>
+                 
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="copyrights">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="copyright">
+              <p>All rights reserved Autopro</p>
+      <p>Autopro2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </footer>
+
+  <script src="./assets/js/jQuery.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="./assets/js/slick.js"></script>
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
+    
